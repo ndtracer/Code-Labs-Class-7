@@ -1,0 +1,256 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f4e2c8;
+  }
+  
+/* Chest Option 1 */
+
+  .chest {
+    --border: #feb21f;
+    --beige: #f4e2c8;
+    --black: #101010;
+    --boxColor: #544333;
+    --blackAlpha: rgba(0, 0, 0, 0.2);
+  
+    position: relative;
+    width: 16rem;
+    height: 10rem;
+    border: solid var(--border);
+    border-width: 0 1rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+      var(--boxColor) 0%,
+      var(--boxColor) 30%,
+      var(--border) 30%,
+      var(--border) 40%,
+      var(--boxColor) 40%,
+      var(--boxColor) 100%
+    );
+    box-shadow: 0.25rem 0.25rem var(--blackAlpha);
+  }
+  /*shadow*/
+  .chest::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    bottom: 0;
+    left: 50%;
+    border-radius: 0 0.25rem 0.25rem 0;
+    background-color: var(--blackAlpha);
+  }
+  .chest_keyholeBG {
+    position: absolute;
+    top: 40%;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--border);
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  }
+  .chest_keyhole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chest_keyhole::before {
+    content: "";
+    display: block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: var(--black);
+  }
+  .chest_keyhole::after {
+    content: "";
+    display: block;
+    width: 0.25rem;
+    height: 0.75rem;
+    margin-top: -0.25rem;
+    background-color: var(--black);
+  }
+  
+
+/* Chest Option 2 Kids */
+  .childChest {
+    --border: #c1121f;
+    --beige: #fdf0d5;
+    --black: #101010;
+    --boxColor: #669bbc;
+    --blackAlpha: rgba(0, 0, 0, 0.2);
+  
+    position: relative;
+    width: 16rem;
+    height: 10rem;
+    border: solid var(--border);
+    border-width: 0 1rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+      var(--boxColor) 0%,
+      var(--boxColor) 30%,
+      var(--border) 30%,
+      var(--border) 40%,
+      var(--boxColor) 40%,
+      var(--boxColor) 100%
+    );
+    box-shadow: 0.25rem 0.25rem var(--blackAlpha);
+  }
+  /*shadow*/
+  .childChest::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    bottom: 0;
+    left: 50%;
+    border-radius: 0 0.25rem 0.25rem 0;
+    background-color: var(--blackAlpha);
+  }
+  .chest_keyholeBG {
+    position: absolute;
+    top: 40%;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--border);
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  }
+  .chest_keyhole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chest_keyhole::before {
+    content: "";
+    display: block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: var(--black);
+  }
+  .chest_keyhole::after {
+    content: "";
+    display: block;
+    width: 0.25rem;
+    height: 0.75rem;
+    margin-top: -0.25rem;
+    background-color: var(--black);
+  }
+  
+
+  .weddingChest {
+    --border: #bababa;
+    --beige: #fdf0d5;
+    --black: #101010;
+    --boxColor: whitesmoke;
+    --blackAlpha: rgba(0, 0, 0, 0.2);
+  
+    position: relative;
+    width: 16rem;
+    height: 10rem;
+    border: solid var(--border);
+    border-width: 0 1rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+      var(--boxColor) 0%,
+      var(--boxColor) 30%,
+      var(--border) 30%,
+      var(--border) 40%,
+      var(--boxColor) 40%,
+      var(--boxColor) 100%
+    );
+    box-shadow: 0.25rem 0.25rem var(--blackAlpha);
+  }
+  /*shadow*/
+  .weddingChest::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    bottom: 0;
+    left: 50%;
+    border-radius: 0 0.25rem 0.25rem 0;
+    background-color: var(--blackAlpha);
+  }
+  .chest_keyholeBG {
+    position: absolute;
+    top: 40%;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--border);
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  }
+  .chest_keyhole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chest_keyhole::before {
+    content: "";
+    display: block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: var(--black);
+  }
+  .chest_keyhole::after {
+    content: "";
+    display: block;
+    width: 0.25rem;
+    height: 0.75rem;
+    margin-top: -0.25rem;
+    background-color: var(--black);
+  }
+  
+
+  .imgDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    /* position: absolute; */
+  }
+
+  .imgDivKids {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .imgDivTop {
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+  .imgDivBtm {
+    display: flex;
+  }
+
+  .weddingImg {
+    display: flex;
+    max-height: 50px;
+    max-width: 50px;
+
+  }
